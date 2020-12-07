@@ -1,0 +1,27 @@
+.finish {
+   background-color:   #f4e5de;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container {
+}
+.finish__content {
+   width: 360px;
+   padding: 20px 0;
+   margin: 0 auto 0 auto;
+}
+.finish__flex {
+   display: flex;
+   justify-content: space-between;
+}
+.finish__nazva a{
+   color: black;
+}
+.finish__icon {
+   width: 15px;
+   height: 15px;
+   border-radius: 25px;
+   border: 2px solid #c2999c;
+}
+.finish__pravo {
+   color: #b0b3b8;
+}

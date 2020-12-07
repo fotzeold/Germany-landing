@@ -1,0 +1,130 @@
+/*==================Обнуление==================*/
+
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+
+/*=============================================*/
+
+.block6 {
+	padding: 0px 15px 100px 15px;
+	background-color: #f4e5de;
+
+}
+.container {}
+.block6__title h2 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 36px;
+	padding: 0 0 50px 0;
+}
+
+
+.block6__main {}
+.block6__row {
+	display: flex;
+	justify-content: space-between;
+
+}
+.scriptbeckgr{
+	background-color: #d7bfc1;
+}
+
+.block6__punkt {
+	border-radius: 15px;
+	width: 200px;
+	padding: 25px 0 30px 15px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.block6_punkt-1 {
+
+}
+.block6_punkt-2 {
+	margin: 15px 0 0 0; 
+}
+.block6_punkt-3 {}
+
+.block6__punkt img{
+
+}
+
+.block6__punkt span{
+	display: inline-block;
+	font-size: 20px;
+	height: 50px; 
+}	
+
+.block6__punkt p{
+	font-size: 16px;
+}
+
+
+
+
+
+
+@media (max-width: 930px) {
+		.block6 {
+			padding: 0px 0px 50px 10px;
+
+		}
+
+		.block6__title h2 {
+			text-align: center;
+			padding: 0 0  20px 0;
+		}
+
+		.block6__row {
+			display: block;
+		}
+		.block6__punkt {
+			display: flex;
+			justify-content: space-between;
+			width: 300px;
+			height: 80px;
+			align-items: center;
+			margin: 5px auto 5px auto;
+			padding: 5px 10px 5px 10px;
+
+		}
+
+		.block6_punkt-1 img {
+			width: 40px;
+
+		}
+
+		.block6_punkt-1{
+			width: 40px;
+		}
+
+		.block6_punkt-2 {
+			margin: 0 0 0 10px; 
+			width:  230px;
+
+		}
+		
+
+		.block6__punkt span{
+			font-size: 20px;
+			height: 0;
+
+	}	
+
+		.block6__punkt p{
+			font-size: 16px;
+		}
+
+}

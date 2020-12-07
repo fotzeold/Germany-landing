@@ -1,0 +1,160 @@
+/*==================Обнуление==================*/
+
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+
+/*=============================================*/
+					
+
+.info {
+	padding: 30px 15px 100px 15px;
+		background-color: #f4e5de;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.container {}
+
+.info__row {
+	display: flex;
+}
+.info__title{
+	padding: 0 60px 0 0;
+}
+
+.info__title h2{
+	font-size: 36px;
+	text-align: center;
+}
+.info__img {
+	margin: 100px 0 0 100px;
+}
+
+
+
+.info__content {
+	width: 900px;
+}
+
+.info__group{
+}
+
+.info__subtitle img{
+	margin: 0 25px 0 0 ;
+
+}
+.info__subtitle {
+	margin: 0 0 20px 0; 
+	height: 64px;
+	font-size: 28px;
+	line-height: 64px;
+
+}
+
+.info__text {
+	margin: 0 0 40px 0; 
+	font-size: 16px;
+	line-height: 20px;
+
+}
+
+
+@media (max-width: 960px) {
+.info__title{
+	padding: 0 0 0 0;
+	margin: 0 0 50px 0;
+}
+.info__row {
+	display: block;
+}
+
+.info__img {
+	display: none;
+}
+
+.info__content {
+	width: 90%;
+	margin: 0 auto;
+}
+}
+
+
+@media (max-width: 560px) {
+		.info__title{
+		padding: 0 0 0 0;
+		margin: 0 0 50px 0;
+		}
+
+		.info__title h2{
+			font-size: 32px;
+		}
+
+
+		.info__row {
+			display: block;
+		}
+
+		.info__subtitle{
+				font-size: 22px;
+				line-height: 64px;
+
+		}
+
+		.info__img {
+			display: none;
+		}
+
+		.info__content {
+			width: 90%;
+			margin: 0 auto;
+		}
+}
+	
+
+	@media (max-width: 460px) {
+
+.info__subtitle{
+				font-size: 22px;
+				line-height: 40px;
+				display: flex;
+
+				margin: 0 0 10px 0; 
+				height: 40px;
+
+		}
+
+
+		.info__subtitle img{
+				width: 40px;
+				margin: 0 5px 0 0 ;
+
+}
+	
+.info {
+	padding: 20px 15px 50px 15px;
+		background-color: #f4e5de;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+	}
+
+@media (max-width: 393px) {
+		.info__modific	{
+			line-height: 20px;
+		}
+}
