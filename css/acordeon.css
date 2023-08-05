@@ -3,12 +3,11 @@
 
 
 .acordeon {
+	padding-top: 90px;
    background-color: #f4e5de;
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-.container {
-   
-}
+
 .acordeon__content {
    padding: 50px 100px 100px 100px;
 }
@@ -54,4 +53,11 @@
    font-size: 16px;
    line-height: 20px;
 
+}
+
+
+@media (max-width:500px ) {
+	.acordeon__content {
+		padding: 50px 20px 100px 20px;
+	}
 }

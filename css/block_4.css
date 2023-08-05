@@ -72,7 +72,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 }
 .block4__video {
 
-	width: 562px
+	width: 562px;
 	margin: 0 0 0 20px;
 	padding: 0  0 0 0;
 	height: 400px; 
@@ -154,19 +154,24 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	
 		.block4__video {
 			height: 340px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 
 }
 
 		.block4 iframe{
 			width: 448px ;
 			height: 252px ;
+			margin: 0 auto;
 		}
 
 		.block4__play {
 			width: 450px ;
 			height: 255px ;
-			top: -255px;
+			top: -230px;
 			padding: 70px 0 0 0;
+			margin: 0 auto;
 
 
 

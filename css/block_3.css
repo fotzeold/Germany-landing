@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 
 .block3 {
 	background-color: #f4e5de;
-	
+	padding-top: 50px;
 }
 
 .block3__bek{
@@ -150,11 +150,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		.block3__row {
 			width: 100%;
 
-		}
-
-
-			
+		}		
 }
+
+
+@media (max-width:740px ) {
+	.block3 {
+		background-color: #f4e5de;
+		padding-top: 0px;
+	}	
+}
+
 
 @media (max-width:500px ) {
 		.block3__question {

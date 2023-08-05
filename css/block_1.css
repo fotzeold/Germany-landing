@@ -20,38 +20,34 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 /*=============================================*/
 
 .block1 {
+		padding: 70px 0 140px 0;
+		background: url("/img/block__1/Subtract.png") 0 0/ 100% 100% no-repeat; 
 		background-color: #f4e5de;
- 	    background-size: 100%;   
-	   background-size: cover;
-
+		
 }
-.container {}
-
-
 
 .block1__row {
 	padding: 0 30px;
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 /*=============================================*/
 
-.block1__photo {
-	padding-right: 20px;
+.block1__photo .block1__button{
+	display: none;
 }
 
 .block1__photo img{
-	height: 575px;
-	width: 250px;
+	height: auto;
+	width: 470px;
 }
 /*=============================================*/
 
 .block1__content {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	margin: 180px  0  0 20px ;
-	padding:0 10px 0 10px;
+	padding: 20px 10px 0 10px;
 	color: #000;
-	/* color: #ebe7e8;  */
-
 	font-weight: 500;
 }
 /*=============================================*/
@@ -70,142 +66,78 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 
 /*=============================================*/
 
-@media (max-width: 768px) {
-		.block1__title {
-		font-size: 28px;
-	}
-	.block1__subtitle {
-		font-size: 24px;
-	}
-}
-
-@media (max-width: 700px) {
-	.block1__row {
-		padding: 0;
-		display: block;
-}
-
-	.block1__photo {
-		padding-right: 0;
-		width: 200px;
-		height: 200px;
-		overflow: hidden;
-		margin: 0 auto;
-		border-radius: 50%;
-		border: 2px solid #aeada3;
-		background-color: #e3e2d9;
-	}
-
+@media (max-width: 920px) {
 	.block1__photo img{
-		height: 575px;
-		width: 250px;
-		position: relative;
-		left: -15px;
+		width: 370px;
 	}
-
-	.block1 {
-		padding: 35px 0 35px 0;
-
-}
-
-	.block1__content {
-		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-		margin: 0 auto  0  auto;
-		padding:0 25px 0 25px;
-		color: #fff;
-		font-weight: 500;
-	}
-
 	.block1__title {
-		font-size: 28px;
-		margin: 15px 0 15px 0;
-		text-shadow: 1px 1px 5px black; 
-		text-align: center;
+		font-size: 26px;
 	}
-
-
-
 	.block1__subtitle {
-		margin: 0 0 35px 0;
-		font-size: 24px;
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 768px) {
+	.block1__row {
+		padding: 0 30px;
+		display: block;
+	}
+	.block1__photo img{
+		margin: 0 auto;
+		display: block;
+	}
+	.block1__content{
 		text-align: center;
-		text-shadow: 1px 1px 5px black; 
+	}
+	.block1__content .block1__button{
+		display: none;
+	}
+	.block1__photo .block1__button {
+		display: block;
 	}
 
-	.block1__button  {
-		text-align: center;
-}
+	.block1__photo .block1__button a{
+		display: block;
+		margin: 50px auto 0 auto;
+	}
 }
 
 @media (max-width: 425px) {
-	.block1__title {
-		font-size: 24px;
-		}
-
-	.block1__subtitle {
-		font-size: 20px;
-		margin: 0 0 30px 0;
-		
+	.block1__photo img{
+		margin: 0 auto;
+		display: block;
+		width: 300px;
 	}
-	
-
 }
 
-@media (max-width: 340px) {
+@media (max-width: 378px) {
 	.block1__title {
 		font-size: 24px;
-		line-height: 30px;
-		margin: 15px 0 10px 0;
-
-		}
-
-	.block1__subtitle {		
-		line-height: 30px;
-		font-size: 21px;
-		margin: 0 0 30px 0;
-		
 	}
-
+	.block1__subtitle {
+		font-size: 18px;
+	}
 }
 
 /*=============================================*/
 
-
-.block1__button  {
-		margin: -10px 0 0 0;
-
-
-}
-
 .block1__button a {
-	box-shadow: 2px 2px 10px rgba(0,0,0,0.5); /* Параметры тени */
 	display: inline-block;
-	border-radius: 5px;
-	height: 41px;
 	color: #000;
-	width: 150px;
-	margin: 10px 10px 0 0;
+	width: 250px;
 	transition: 0.6s;
-   background-color: rgba(226, 226, 226, 0.5);
+	text-align: center;
+	background-color: #f4e5de;
 }
 
 .block1__button a:hover {
-	background-color: #d7bfc1;
-}
-
-.block1__button  img{
-	padding: 3px;
-	margin: 3px 5px 0 5px;
-	display: inline-block;
-	width: 35px;
-	height: 35px;
+	background-color: #ededed;
 }
 
 .block1__button span {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-weight: 700;
-	display: inline-block;
-	padding: 0 5px 0 0;
-	line-height: 40px;
-
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ font-weight: 500;
+ font-size: 22px;
+ line-height: 44px;
 }

@@ -91,18 +91,20 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 			display: block;
 		}
 		.block6__punkt {
+			position: relative;
 			display: flex;
 			justify-content: space-between;
 			width: 300px;
-			height: 80px;
+			height: 100px;
 			align-items: center;
 			margin: 5px auto 5px auto;
-			padding: 5px 10px 5px 10px;
-
+			padding: 35px 0 30px 15px;
 		}
 
 		.block6_punkt-1 img {
+			position: absolute;
 			width: 40px;
+			top: 25px;
 
 		}
 
@@ -113,7 +115,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		.block6_punkt-2 {
 			margin: 0 0 0 10px; 
 			width:  230px;
-
 		}
 		
 
